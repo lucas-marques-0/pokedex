@@ -1,0 +1,37 @@
+<!-- assistir esse vídeo:https://www.youtube.com/watch?v=SjtdH3dWLa8 -->
+<!-- ou: https://www.youtube.com/watch?v=r9buAwVBDhA -->
+
+<!DOCTYPE html>
+<html lang="ptbr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./imagens/icone.png">
+    <link rel="stylesheet" href="./style.css">
+    <!-- "defer" faz com que o script não seja carregado antes do nossa html -->
+    <script defer src="./script.js"></script> <!-- podemnos fazer isso ou colocar ele por ultimo no código (sem usar o defer) -->
+    <title>Pokédex</title>
+</head>
+<body>
+    <main>
+        <img class="pokemon_imagem" src="" alt="pokemon">
+
+        <h1 class="pokemon_dados">
+            <span class="pokemon_numero"></span> -
+            <span class="pokemon_nome"></span>
+        </h1>
+
+        <form class="formulario">
+            <input type="search" class="pesquisar" placeholder="insira nome ou número" required>
+        </form>
+
+        <div class="botoes">
+            <button class="botao botao_anterior">Prev &lt;</button>
+            <button class="botao botao_proximo">Next &gt;</button>
+        </div>
+
+        <img class="pokedex" src="./imagens/pokedex.png" alt="pokedex">
+    </main>
+</body>
+</html>
